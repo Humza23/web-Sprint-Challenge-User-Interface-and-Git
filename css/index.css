@@ -179,7 +179,7 @@ header nav {
     margin: 0 auto;
 }
 .wideimage img{
-    width: 52rem;
+    width: 55rem;
 }
 
 .boxes .box:nth-child(1) {
@@ -211,4 +211,41 @@ header nav {
 }
 .boxes .box:nth-child(10) {
     background-color: dodgerblue;
+}
+
+.container.about-page {
+    /* padding: 1.3rem; */
+}
+.container.about-page h2{
+    font-size: 1.2rem;
+}
+.container.about-page p {
+    margin-bottom: 1.3rem;
+    /* border-bottom: 2px dotted; */
+    font-size: 1.05rem;
+}
+
+.strategycontainer { 
+    border-top: 2px dotted;
+    padding: 1rem;
+    margin: 4rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.strategycontainer div{
+    width: 50%;
+    margin-bottom: 3rem;
+}
+
+.strategycontainer a{
+    font-size: 1rem;
+    color: black;
+    border: 3px solid black;
+    border-radius: 1rem;
+    padding: .7rem;
+}
+.top1,.top2{
+    border-bottom: 2px dotted;
+    padding: 2rem;
 }
