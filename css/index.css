@@ -50,7 +50,7 @@ table {
 * {
     font-size: 62.5%;
     box-sizing: border-box;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 html, body {
@@ -84,6 +84,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
+    padding-top: 20px;
     padding-bottom: 20px;  
 }
 
@@ -217,6 +218,7 @@ header nav {
     /* padding: 1.3rem; */
 }
 .container.about-page h2{
+    margin-top: 1rem;
     font-size: 1.2rem;
 }
 .container.about-page p {
@@ -228,14 +230,20 @@ header nav {
 .strategycontainer { 
     border-top: 2px dotted;
     padding: 1rem;
-    margin: 4rem 0;
+    margin: 2.5rem auto;
+    margin-bottom: 0rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 50rem;
 }
 .strategycontainer div{
     width: 50%;
     margin-bottom: 3rem;
+}
+.strategycontainer img{
+    display: flex;
+    width: 20rem;
 }
 
 .strategycontainer a{
@@ -245,7 +253,11 @@ header nav {
     border-radius: 1rem;
     padding: .7rem;
 }
-.top1,.top2{
+.top1,.top2,.bottom1,.bottom2{
     border-bottom: 2px dotted;
     padding: 2rem;
+}
+
+.end {
+    padding: 1rem;
 }
